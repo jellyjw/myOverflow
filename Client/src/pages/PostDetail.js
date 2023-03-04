@@ -3,13 +3,12 @@ import { VscAccount } from "react-icons/vsc";
 import { IoChatbubbleOutline } from "react-icons/io5";
 import { GoDiffIgnored } from "react-icons/go";
 import Buttons from "../components/Post/Buttons";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FcLikePlaceholder, FcLike } from "react-icons/fc";
 import { useEffect, useState } from "react";
 import TextField from "@mui/material/TextField";
 import axios from "axios";
 import * as dayjs from "dayjs";
-import { getUser } from "../util/data";
 import { useRecoilState } from "recoil";
 import { loginState } from "../store";
 
@@ -19,20 +18,25 @@ export function PostDetail() {
   const [editAnswerInput, setEditAnswerInput] = useState("");
   const [isLike, setIsLike] = useState(false);
   const [editId, setEditId] = useState();
-  const [isLogin, setIsLogin] = useRecoilState(loginState);
+  const [loginInfo, setLoginInfo] = useRecoilState(loginState);
+  const [isOwner, setIsOwner] = useState(false);
 
   const { data } = useLocation().state;
   const { category, content, createdAt, nickname, likeCount, title, questionId, memberId } = data;
+  const navigate = useNavigate();
 
   function getAnswerData() {
-    return axios.get(`http://13.209.121.17:8080/answers?questionId=${questionId}`).then(res => res.data.data);
+    return axios
+      .get(`http://13.209.121.17:8080/answers?questionId=${questionId}`)
+      .then(res => res.data.data.sort((a, b) => a.answerId - b.answerId));
   }
 
   useEffect(() => {
     getAnswerData().then(res => setAnswerData(res));
-    const r = getUser();
-    setIsLogin(r?.memberId === 1);
-  }, []);
+    if (loginInfo.memberId === memberId) {
+      setIsOwner(true);
+    }
+  }, [loginInfo]);
 
   const editAnswer = (id, content) => {
     setEditAnswerInput(content);
@@ -59,15 +63,15 @@ export function PostDetail() {
   };
 
   const handleDeleteAnswerButtonClick = answerId => {
-    const isConfirm = window.confirm("답변을 삭제하시겠어요?");
-    if (isConfirm) {
+    const isConfirmDeleteAnswer = window.confirm("답변을 삭제하시겠어요?");
+    if (isConfirmDeleteAnswer) {
       deleteAnswer(answerId);
     }
     getAnswerData().then(res => setAnswerData(res));
   };
 
-  const handleUpdateAnswerButtonClick = answerId => {
-    editAnswer(answerId, editAnswerInput);
+  const handleUpdateAnswerButtonClick = (answerId, editContent) => {
+    editAnswer(answerId, editContent);
     updateAnswer(answerId);
     getAnswerData().then(res => setAnswerData(res));
     if (editId) {
@@ -76,8 +80,6 @@ export function PostDetail() {
     getAnswerData().then(res => setAnswerData(res));
   };
 
-  // console.log(answerData[0].answerId);
-  // console.log(answerData[0].answerId);
   const updateAnswer = answerId => {
     const updateAnswer = {
       memberId,
@@ -91,6 +93,19 @@ export function PostDetail() {
     alert("답변이 삭제되었어요.");
   };
 
+  const handleDeleteQuestionButtonClick = async questionId => {
+    const isConfirmDeleteQuestion = window.confirm("질문을 삭제하시겠어요?");
+    if (isConfirmDeleteQuestion) {
+      await deleteQuestion(questionId);
+      navigate("/");
+    }
+  };
+
+  const deleteQuestion = async questionId => {
+    const result = await axios.delete(`http://13.209.121.17:8080/questions/${questionId}`);
+    return result;
+  };
+
   return (
     <div className="flex flex-col justify-center items-center max-w-screen-2xl w-[70vw] m-auto">
       <main className="w-[60vw] overflow-auto">
@@ -100,7 +115,7 @@ export function PostDetail() {
         <h1 className="text-[45px] font-bold mb-5 mt-5">{title}</h1>
         <section className="flex items-center mb-5">
           <VscAccount size={38} />
-          <span className="text-[20px] font-bold border-solid border-r-4 pr-5 ml-5">{nickname || "jangjiwoo"}</span>
+          <span className="text-[20px] font-bold border-solid border-r-4 pr-5 ml-5">{nickname || "-"}</span>
           <span className="text-[20px] pl-5 text-gray-500">{createdAt && dayjs(createdAt).format("YYYY-MM-DD")}</span>
           {category?.map((el, i) => (
             <span key={i} className="text-[20px] ml-[30px]">
@@ -108,10 +123,12 @@ export function PostDetail() {
             </span>
           ))}
           <div className="ml-auto">
-            {isLogin ? (
+            {isOwner ? (
               <>
-                <span className="mr-3">본문 수정</span>
-                <span className="mr-3">삭제</span>
+                <span className="mr-3 cursor-pointer">본문 수정</span>
+                <span className="mr-3 cursor-pointer" onClick={() => handleDeleteQuestionButtonClick(questionId)}>
+                  삭제
+                </span>
               </>
             ) : null}
           </div>
@@ -134,7 +151,6 @@ export function PostDetail() {
               {answerData &&
                 answerData.map((el, i) => {
                   const { answerId, content, createdAt, memberId, nickname } = el;
-                  // console.log(memberId);
                   return (
                     <div className="mb-5" key={i}>
                       <div className="flex items-center mb-2">
@@ -148,15 +164,14 @@ export function PostDetail() {
                           </span>
                         </div>
                         <div className="ml-auto">
-                          {(isLogin && (
+                          {(Number(memberId) === loginInfo.memberId && (
                             <>
                               <span
                                 className="mr-2 cursor-pointer"
-                                onClick={() => handleUpdateAnswerButtonClick(answerId)}
+                                onClick={() => handleUpdateAnswerButtonClick(answerId, content)}
                               >
                                 {answerId === editId ? "등록" : "수정"}
                               </span>
-                              {console.log(answerId)}
                               <span
                                 className="mr-2 cursor-pointer"
                                 onClick={
@@ -175,16 +190,13 @@ export function PostDetail() {
                       {answerId === editId ? (
                         <TextField
                           multiline
-                          onChange={e => setEditAnswerInput(e.target.value)}
                           value={editAnswerInput}
+                          onChange={e => setEditAnswerInput(e.target.value)}
                         />
                       ) : (
                         <pre>{content}</pre>
                       )}
-                      <div className="flex items-center cursor-pointer" onClick={() => setIsLike(!isLike)}>
-                        {/* {isLike ? <FcLike size={26} /> : <FcLikePlaceholder size={26} />} */}
-                        {/* <span className="ml-1 text-[12px]">{answerLike.memberId.length}</span> */}
-                      </div>
+                      <div className="flex items-center cursor-pointer" onClick={() => setIsLike(!isLike)}></div>
                       <div className="w-[60vw] border-solid border-[1px] border-gray mt-5" />
                     </div>
                   );
