@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "GmarketSansMedium";
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  @apply flex justify-center w-full;
+}
+#root {
+  @apply w-full;
+}
+.slice-list {
+  height: 20rem;
+}
+.textField-radius fieldset{
+  border-radius: 20rem;
+}
+.list{
+  flex: 2 0 auto;
+}
+pre {
+  font-family: "GmarketSansMedium";
+}

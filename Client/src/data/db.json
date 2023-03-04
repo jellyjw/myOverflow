@@ -1,0 +1,928 @@
+{
+  "questions": [
+    {
+      "questionId": 1,
+      "title": "자바스크립트 nodelist 질문 드립니다.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "answerCount": 0,
+      "memberId": 101,
+      "questionLike": {
+        "memberId": [101, 104, 105]
+      }
+    },
+    {
+      "questionId": 2,
+      "title": "자바스크립트 nodelist 질문 드립니다.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "answerCount": 0,
+      "memberId": 102,
+      "questionLike": {
+        "memberId": [101]
+      }
+    },
+    {
+      "questionId": 3,
+      "title": "자바스크립트 nodelist 질문 드립니다.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 103,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [104, 107]
+      }
+    },
+    {
+      "questionId": 4,
+      "title": "자바스크립트 nodelist 질문 드립니다.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 104,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [106]
+      }
+    },
+    {
+      "questionId": 5,
+      "title": "자바스크립트 nodelist 질문 드립니다.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 105,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [104, 109]
+      }
+    },
+    {
+      "questionId": 6,
+      "title": "자바스크립트 nodelist 질문 드립니다.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 106,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [110]
+      }
+    },
+    {
+      "questionId": 7,
+      "title": "자바스크립트 nodelist 질문 드립니다.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 107,
+      "answerCount": 1,
+      "questionLike": {
+        "memberId": [110]
+      }
+    },
+    {
+      "questionId": 8,
+      "title": "자바스크립트 nodelist 질문 드립니다.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 108,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [101, 110]
+      }
+    },
+    {
+      "questionId": 9,
+      "title": "자바스크립트 nodelist 질문 드립니다.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 109,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [102, 104]
+      }
+    },
+    {
+      "questionId": 10,
+      "title": "자바스크립트 nodelist 질문 드립니다.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 110,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [108]
+      }
+    },
+    {
+      "id": 55,
+      "questionId": 31,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "ssdsafdff455",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": "typescript",
+      "content": "2번처럼 타입을 지정하고 싶은데요 1. Component: ()=>JSX.Element 2.Component: (아무거나 들어올수 있는 타입)=>JSX.Element 2번에 아무거나 들어올 수 있는 타입이 뭐가 있을까요..",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "answerCount": 1,
+      "memberId": 111,
+      "questionLike": {
+        "memberId": [111, 114, 115]
+      }
+    },
+    {
+      "questionId": 32,
+      "title": "타입스크립트 질문이 있습니다 ㅠ.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": "typescript",
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "answerCount": 0,
+      "memberId": 112,
+      "questionLike": {
+        "memberId": [111]
+      }
+    },
+    {
+      "questionId": 33,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 113,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [114, 117]
+      }
+    },
+    {
+      "questionId": 34,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 114,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [116]
+      }
+    },
+    {
+      "questionId": 35,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 115,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [114, 119]
+      }
+    },
+    {
+      "questionId": 36,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 116,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [120]
+      }
+    },
+    {
+      "questionId": 37,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 117,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [120]
+      }
+    },
+    {
+      "questionId": 38,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 118,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [121, 120]
+      }
+    },
+    {
+      "questionId": 39,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 119,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [112, 114]
+      }
+    },
+    {
+      "questionId": 40,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 120,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [118]
+      }
+    },
+    {
+      "questionId": 41,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "ssdsafdff455",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "2번처럼 타입을 지정하고 싶은데요 1. Component: ()=>JSX.Element 2.Component: (아무거나 들어올수 있는 타입)=>JSX.Element 2번에 아무거나 들어올 수 있는 타입이 뭐가 있을까요..",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "answerCount": 1,
+      "memberId": 111,
+      "questionLike": {
+        "memberId": [111, 114, 115]
+      }
+    },
+    {
+      "questionId": 42,
+      "title": "타입스크립트 질문이 있습니다 ㅠ.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category":["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "answerCount": 0,
+      "memberId": 112,
+      "questionLike": {
+        "memberId": [111]
+      }
+    },
+    {
+      "questionId": 43,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category":["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 113,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [114, 117]
+      }
+    },
+    {
+      "questionId": 44,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 114,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [116]
+      }
+    },
+    {
+      "questionId": 45,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 115,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [114, 119]
+      }
+    },
+    {
+      "questionId": 46,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 116,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [120]
+      }
+    },
+    {
+      "questionId": 47,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 117,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [120]
+      }
+    },
+    {
+      "questionId": 48,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 118,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [121, 120]
+      }
+    },
+    {
+      "questionId": 49,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 119,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [112, 114]
+      }
+    },
+    {
+      "questionId": 50,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category":["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 120,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [118]
+      }
+    }
+  ],
+  "typescript": [
+    {
+      "questionId": 1,
+      "title": "자바스크립트 nodelist 질문 드립니다.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "answerCount": 0,
+      "memberId": 101,
+      "questionLike": {
+        "memberId": [101, 104, 105]
+      }
+    },
+    {
+      "questionId": 2,
+      "title": "자바스크립트 nodelist 질문 드립니다.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "answerCount": 0,
+      "memberId": 102,
+      "questionLike": {
+        "memberId": [101]
+      }
+    },
+    {
+      "questionId": 3,
+      "title": "자바스크립트 nodelist 질문 드립니다.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 103,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [104, 107]
+      }
+    },
+    {
+      "questionId": 4,
+      "title": "자바스크립트 nodelist 질문 드립니다.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 104,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [106]
+      }
+    },
+    {
+      "questionId": 5,
+      "title": "자바스크립트 nodelist 질문 드립니다.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 105,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [104, 109]
+      }
+    },
+    {
+      "questionId": 6,
+      "title": "자바스크립트 nodelist 질문 드립니다.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 106,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [110]
+      }
+    },
+    {
+      "questionId": 7,
+      "title": "자바스크립트 nodelist 질문 드립니다.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 107,
+      "answerCount": 1,
+      "questionLike": {
+        "memberId": [110]
+      }
+    },
+    {
+      "questionId": 8,
+      "title": "자바스크립트 nodelist 질문 드립니다.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 108,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [101, 110]
+      }
+    },
+    {
+      "questionId": 9,
+      "title": "자바스크립트 nodelist 질문 드립니다.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category":["javascript","typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 109,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [102, 104]
+      }
+    },
+    {
+      "questionId": 10,
+      "title": "자바스크립트 nodelist 질문 드립니다.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category":["javascript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 110,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [108]
+      }
+    }
+  ],
+  "typescript": [
+    {
+      "id": 55,
+      "questionId": 31,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "ssdsafdff455",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript"],
+      "content": "2번처럼 타입을 지정하고 싶은데요 1. Component: ()=>JSX.Element 2.Component: (아무거나 들어올수 있는 타입)=>JSX.Element 2번에 아무거나 들어올 수 있는 타입이 뭐가 있을까요..",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "answerCount": 1,
+      "memberId": 111,
+      "questionLike": {
+        "memberId": [111, 114, 115]
+      }
+    },
+    {
+      "questionId": 32,
+      "title": "타입스크립트 질문이 있습니다 ㅠ.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["javascript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "answerCount": 0,
+      "memberId": 112,
+      "questionLike": {
+        "memberId": [111]
+      }
+    },
+    {
+      "questionId": 33,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 113,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [114, 117]
+      }
+    },
+    {
+      "questionId": 34,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 114,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [116]
+      }
+    },
+    {
+      "questionId": 35,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 115,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [114, 119]
+      }
+    },
+    {
+      "questionId": 36,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 116,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [120]
+      }
+    },
+    {
+      "questionId": 37,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 117,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [120]
+      }
+    },
+    {
+      "questionId": 38,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 118,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [121, 120]
+      }
+    },
+    {
+      "questionId": 39,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 119,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [112, 114]
+      }
+    },
+    {
+      "questionId": 40,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 120,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [118]
+      }
+    },
+    {
+      "questionId": 41,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "ssdsafdff455",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["typescript"],
+      "content": "2번처럼 타입을 지정하고 싶은데요 1. Component: ()=>JSX.Element 2.Component: (아무거나 들어올수 있는 타입)=>JSX.Element 2번에 아무거나 들어올 수 있는 타입이 뭐가 있을까요..",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "answerCount": 1,
+      "memberId": 111,
+      "questionLike": {
+        "memberId": [111, 114, 115]
+      }
+    },
+    {
+      "questionId": 42,
+      "title": "타입스크립트 질문이 있습니다 ㅠ.",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "answerCount": 0,
+      "memberId": 112,
+      "questionLike": {
+        "memberId": [111]
+      }
+    },
+    {
+      "questionId": 43,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 113,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [114, 117]
+      }
+    },
+    {
+      "questionId": 44,
+      "title": "타입스크립트 질문이 있습니다 ㅠ",
+      "nickname": "뉸뉴뉸",
+      "createdAT": "2019-11-08T12:32:22.000003333",
+      "modifiedAt": "2019-11-12T12:32:22.000003333",
+      "category": ["typescript"],
+      "content": "149번 라인에서 클릭을 했을 때 다른 곳에 128번 ~ 138번 라인 처럼 innerHtml을 사용해 데이터의 정보를 넣고 싶은데 145 라인에 querySelectorAll을 사용해 데이터들이 nodeList로 들어와 key, value값이 없는 그냥 html정보만 나옵니다. nodeList를 146번 라인처럼 배열에 담아도 똑같이 나오는데 html 정보가 아닌 데이터 값이 나오게 하려면 어떻게 해야 하는지 고수 분들의 답변 기다리겠습니다. 아시는 분들은 답변 해주시면 감사하겠습니다ㅠㅠ",
+      "questionStatus": "답변완료",
+      "questionOpenStatus": "공개",
+      "likeCount": 0,
+      "memberId": 114,
+      "answerCount": 0,
+      "questionLike": {
+        "memberId": [116]
+      }
+    }
+  ]
+}
