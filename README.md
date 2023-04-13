@@ -5,9 +5,6 @@
 <img src="https://user-images.githubusercontent.com/104891203/223292393-f50ca765-60a1-4294-83d8-0bcc19c447fd.mov" />
 
 
-### 📌 배포 링크
-http://myoverflow.s3-website.ap-northeast-2.amazonaws.com/
-
 ### 👩🏻‍💻 개발 기간
 2023.02.13 ~ 2023.03.02 (3주)
 
