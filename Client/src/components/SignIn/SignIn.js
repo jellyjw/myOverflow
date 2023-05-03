@@ -14,6 +14,7 @@ import { login } from "../../util/data";
 import { loginState } from "../../store";
 import { useRecoilState } from "recoil";
 function Copyright(props) {
+  const a = "jang";
   return (
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
       {"Copyright © "}
