@@ -8,6 +8,7 @@ import { Home } from "./pages/Home";
 import { Post } from "./pages/Post";
 import { PostDetail } from "./pages/PostDetail";
 import { Setting } from "./pages/setting";
+import { Calendar } from "./pages/Calendar";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: "/setting",
         element: <Setting />,
+      },
+      {
+        path: "/calendar",
+        element: <Calendar />,
       },
     ],
     errorElement: <div>error!!</div>,
